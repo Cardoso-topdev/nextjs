@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "export": "next export",
     "preexport": "yarn build",
     "prestart": "yarn export",
-    "start": "serve out",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
